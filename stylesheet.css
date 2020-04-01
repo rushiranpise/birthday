@@ -1086,11 +1086,13 @@ audio {
 
 .balloons {
 	position: fixed;
-	bottom: -200px;
+	bottom: calc(-100vw / 2);
 	opacity: 0.6;
 	z-index: 99;
-	width: 100px;
-	height: 183px;
+	/*width: 100px;*/
+	width: calc(100vw / 9);
+	/*height: 183px;*/
+	height:calc(100vw / 5);
 	background-repeat: no-repeat no-repeat;
 	background-size: 100px 183px;
 }

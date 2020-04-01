@@ -1,3 +1,11 @@
+.elm {
+	/*Firefox*/
+-moz-calc(expression);
+	/*chrome safari*/
+-webkit-calc(expression);
+	/*Standard */
+calc();
+}
 body {
 	/*background-color: #FFDAB9;	*/
 	background-color: #000;
